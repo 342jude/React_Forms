@@ -21,6 +21,7 @@ export default function SignUpForm({ setToken }) {
   return (
     <>
       <h2>Sing Up!</h2>
+      <h2>Sing Up!</h2>
       {error && <p>{error}</p>}
 
       <form onSubmit={handleSubmit}>

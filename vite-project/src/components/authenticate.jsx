@@ -24,7 +24,7 @@ export default function Authenticate({ token }) {
   }
   return (
     <div>
-      <h2>Authenticate</h2>
+      <h2>Authenticates</h2>
       {userData && <p>Welcome, {userData.username}!</p>}
       {successMessage && <p>{successMessage}</p>}
       {error && <p>{error}</p>}
