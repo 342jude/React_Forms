@@ -16,6 +16,7 @@ export default function Authenticate({ token }) {
           },
         }
       );
+
       const result = await response.json();
       setUserData(result.data); // Set the user data
     } catch (error) {
